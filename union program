@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+union student
+{  
+int a[10];  
+char b;  
+float c;  
+double d;  
+};  
+int main()  
+{  
+  union student s; 
+  printf("Size of union student is %d", sizeof(s));  
+  return 0;  
+}  
